@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+.navbar {
+	background-color: #ECECEC;
+	color: #9D9D9D;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: arial;
+	font-weight: bold;
+}
+
+li {
+		list-style: none;
+		display: inline;
+		padding-left: 10px;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+#navbar_phone {
+	display: none;
+}
+
+}
+.bar { /* NOT WORKING */
+	border-right: 10px;
+	border-color: #ECECEC;
+}
+
+.menu {
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 0;
+	font-family: arial;
+	font-weight: bold;
+	align-items: center;
+	height: 40px;
+	padding: 0 20px 0 20px;
+}
+
+.menu {
+	border: 2px solid #ffffff;
+}
+
+.menu:hover {
+	border: 2px solid #000000 ;
+	cursor: pointer;
+}
+
+.menu_bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: right;
+	flex-wrap: nowrap;
+}
+
+.secondary_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 1000px){
+	.contact {
+		width: 300px;
+		display: none;
+	}
+	
+	#navbar_pc {
+		display: none;
+	}
+	
+	#navbar_phone {
+		display: block;
+		width: 100%;
+		background-color: #ECECEC;
+		color: #9D9D9D;
+		font-family: arial;
+		font-weight: bold;
+	}
+	
+.nav1 {
+		display: flex;
+		justify-content: flex-start;
+		align-items: left;
+		flex-wrap: nowrap;/* NOT WORKING */
+	}
+	
+	.search {
+	
+		padding-left: 50%;
+	}
+	
+	.nav2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.secondary_menu {
+		display: none;
+	}
+	
+	nav div img { /* JOANA ESTAVAS AQUI --- tens de centrar o logo */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
